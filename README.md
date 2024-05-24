@@ -1,4 +1,5 @@
-![CI](https://github.com/Ludiamen/11-ahj-code-dom//actions/workflows/web.yml/badge.svg)
+[![GitHub Actions Demo](https://github.com/Ludiamen/11-ahj-code-dom/actions/workflows/github-actions-demo.yml/badge.svg)](https://github.com/Ludiamen/11-ahj-code-dom/actions/workflows/github-actions-demo.yml)
+
 # Домашнее задание к занятию "2. DOM"
 
 Правила сдачи задания:
