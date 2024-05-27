@@ -4,11 +4,11 @@ export default class Cell {
   }
 
   draw() {
-    const container = document.querySelector('.container');
+    const container = document.querySelector(".container");
     for (let i = 0; i < this.size * this.size; i += 1) {
-      const block = document.createElement('div');
+      const block = document.createElement("div");
 
-      block.classList.add('block');
+      block.classList.add("block");
       container.appendChild(block);
     }
   }

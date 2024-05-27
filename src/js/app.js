@@ -1,10 +1,8 @@
-import Cell from './cell.js';
-import rawPosition from './goblin.js';
+import Cell from "./cell";
+import rawPosition from "./goblin";
 
 const cell = new Cell();
 
 cell.draw();
 
 rawPosition();
-
-
