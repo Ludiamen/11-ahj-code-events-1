@@ -1,5 +1,5 @@
 {
-  "name": "ajs",
+  "name": "ajs-10",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -39,5 +39,6 @@
   },
   "jest": {
     "testEnvironment": "jsdom"
-  }
+  },
+  "description": "[![GitHub Actions Demo](https://github.com/Ludiamen/11-ahj-code-dom/actions/workflows/github-actions-demo.yml/badge.svg)](https://github.com/Ludiamen/11-ahj-code-dom/actions/workflows/github-actions-demo.yml)"
 }
