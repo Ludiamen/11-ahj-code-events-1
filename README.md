@@ -1,6 +1,6 @@
-<!-- [![GitHub Actions Demo](https://github.com/Ludiamen/11-ahj-code-dom/actions/workflows/github-actions-demo.yml/badge.svg)](https://github.com/Ludiamen/11-ahj-code-dom/actions/workflows/github-actions-demo.yml) -->
-
 [![Build status](https://ci.appveyor.com/api/projects/status/72uxrosjq55gsdxr?svg=true)](https://ci.appveyor.com/project/Ludiamen/11-ahj-code-dom)
+
+[Сcылка на GitHub Pages](https://ludiamen.github.io/11-ahj-code-dom/)
 
 # Домашнее задание к занятию "2. DOM"
 
