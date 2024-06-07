@@ -1,8 +1,11 @@
 import Cell from "./cell";
-import rawPosition from "./goblin";
+import Goblin from "./goblin";
+import Cursor from "./components/cursor/cursor";
 
 const cell = new Cell();
+const goblin = new Goblin();
+const cursor = new Cursor(".container");
 
 cell.draw();
-
-rawPosition();
+goblin.changePosition();
+goblin.gotCaught();

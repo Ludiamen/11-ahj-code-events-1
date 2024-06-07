@@ -17,6 +17,7 @@
     "@babel/cli": "^7.23.9",
     "@babel/core": "^7.23.9",
     "@babel/preset-env": "^7.23.9",
+    "@bufbuild/jest-environment-jsdom": "^0.1.1",
     "babel-loader": "^9.1.3",
     "css-loader": "^6.10.0",
     "eslint": "^8.57.0",
@@ -37,11 +38,14 @@
     "webpack-dev-server": "^5.0.4"
   },
   "dependencies": {
+    "@testing-library/jest-dom": "^6.4.5",
+    "@testing-library/user-event": "^14.5.2",
     "core-js": "^3.36.1",
-    "eslint-plugin-prettier": "^5.1.3"
+    "eslint-plugin-prettier": "^5.1.3",
+    "prettier": "^3.3.1"
   },
   "jest": {
-    "testEnvironment": "jsdom"
+    "testEnvironment": "@bufbuild/jest-environment-jsdom"
   },
   "description": "[![GitHub Actions Demo](https://github.com/Ludiamen/11-ahj-code-dom/actions/workflows/github-actions-demo.yml/badge.svg)](https://github.com/Ludiamen/11-ahj-code-dom/actions/workflows/github-actions-demo.yml)"
 }
