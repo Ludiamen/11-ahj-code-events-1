@@ -1,4 +1,4 @@
-name: Ludiamen AHJ
+name: Ludiamen AHJ-events-1
 
 on: [push, pull_request]
 
