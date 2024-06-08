@@ -1,0 +1,121 @@
+body {
+  color: #333;
+}
+
+.hidden {
+  display: none;
+}
+
+.score {
+  margin:auto;
+  width: 600px;
+  font-size: 2rem;
+  line-height: 2;
+  color: #046733;
+  border: 3px solid #ced4da;
+  border-radius: .25rem;
+  text-align: center;
+}
+
+.misses {
+  margin:auto;
+  width: 600px;
+  font-size: 2rem;
+  line-height: 2;
+  color: #d20404;
+  border: 3px solid #ced4da;
+  border-radius: .25rem;
+  text-align: center;
+}
+
+.input {
+  display: inline-block;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+}
+
+.btn {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  border: 1px solid #ced4da;
+}
+
+.contact-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  max-width: 500px;;
+}
+
+
+.contact-list-item:first-child, .contact-list-item:last-child {
+  border-top-left-radius: .25rem;
+  border-top-right-radius: .25rem;
+}
+
+.contact-list-item {
+  position: relative;
+  display: block;
+  padding: .75rem 1.25rem;
+  margin-bottom: -1px;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+}
+
+.contact-main {
+  display: flex;
+  align-items: center;
+}
+
+.contact-list-item-img {
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.contact-list-item-name, .contact-list-item-phone, .contact-list-item-action {
+  margin-right: 1rem;
+}
+
+.container {
+  width: 600px;
+  margin: 25px auto;
+}
+
+.block {
+  height: 150px;
+  width: 150px;
+  border: 4px solid rgb(31, 3, 142);
+  float: left;
+  box-sizing: border-box;
+  background-color: rgb(209, 214, 206); 
+}
+
+.goblin {
+  background-image: url(2dbd01ce16c0fa83cb67.png);
+  background-size: cover;
+}
+
+.custom-cursor {
+	position: absolute;
+	height: 80px;
+	width: 80px;
+	background: url(e7f92afd8387b010f850.svg) center / cover no-repeat;
+	pointer-events: none;
+}
+
+.cursor-none {
+	cursor: none;
+}
+
