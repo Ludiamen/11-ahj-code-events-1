@@ -106,9 +106,9 @@ export default class Goblin {
         document.querySelector(".misses").innerText =
           `Количество пропущенных: ${this.misses}`;
       }
-      if (this.misses === 5) {
+      if (this.misses >= 5) {
         position[random].classList.remove("goblin");
-        alert("Игра окончена! Вы промахнулись 5 раз");
+        alert("Игра окончена! Вы промахнулись более 4 раз");
         clearInterval(this.interval);
       }
     }, 1000);
