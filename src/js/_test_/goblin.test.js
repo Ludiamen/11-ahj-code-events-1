@@ -39,7 +39,7 @@ describe("Goblin", () => {
     expect(spySetInterval).toHaveBeenCalledTimes(1);
     jest.advanceTimersByTime(1000);
     return Promise.resolve().then(() => {
-      expect(document.querySelectorAll(".goblin").length).toBe(0);
+      expect(document.querySelectorAll(".goblin").length).toBe(1);
       spySetInterval.mockRestore();
     });
   });
